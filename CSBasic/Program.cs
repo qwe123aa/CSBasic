@@ -23,6 +23,11 @@ namespace CSBasic
             Console.WriteLine(a+(long)b);
             Console.WriteLine((long)a + (long)b);
 
+            //자료형 최소, 최대 출력하기
+            Console.WriteLine(int.MinValue);
+            Console.WriteLine(int.MaxValue);
+            Console.WriteLine(double.MinValue);
+            Console.WriteLine(double.MaxValue);
         }
     }
 }
