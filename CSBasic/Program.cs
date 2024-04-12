@@ -12,6 +12,11 @@ namespace CSBasic
         {
             //C#에서도 헬로월드를?
             Console.WriteLine("Hello World?!");
+
+            //오버플로우 연습
+            int a = 2000000000;
+            int b = 1000000000;
+            Console.WriteLine(a+b);
         }
     }
 }
